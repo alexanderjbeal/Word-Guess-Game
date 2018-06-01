@@ -1,0 +1,65 @@
+.game-container {
+    width: 100%;
+    display: table;
+    background: cadetblue;
+    /*background-image: url('../images/space.jpg');*/
+   
+}
+
+.game {
+    padding: 100px 0 100px 0;
+    margin: 0 auto;
+    width: 90%;
+    display: table;
+}
+ .game .right {
+     width: 40%;
+     float: left;
+ }
+
+ .game .left {
+     width: 60%;
+     float: left;
+ }
+
+ .field {
+     width: 100%;
+     padding: 20px;
+     margin: 20px 0 20px 0;
+     font-size: 13px;
+     background: white;
+     color: darkgray;
+     border: none;
+     border-radius: 6px;
+     text-transform: uppercase;
+     text-align: center;
+     letter-spacing: 4px;
+     font-weight: bold;
+ }
+
+ button {
+     width: 100%;
+     background: white;
+     border-radius: 6px;
+     padding: 20px 0 20px 0;
+     color: darkgrey;
+     border: none;
+     font-size: 13px;
+     font-weight: bold;
+     letter-spacing: 4px;
+     text-transform: uppercase;
+ }
+
+ button:hover {
+     opacity: 0.8;
+ }
+
+ h1 {
+     color: white;
+     font-weight: 900;
+     font-size: 50px;
+     letter-spacing: 1px;
+ }
+ h4 {
+     color: white;
+ }

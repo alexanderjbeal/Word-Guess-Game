@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <title>Hangman Game</title>
+</head>
+<body>
+
+
+    <section class="game-container">
+
+        <section class="game">
+
+            <section class="left">
+                    <h1>Hangman</h1>
+                    <h4>By Alex Beal</h4>
+            </section>
+
+            <section class="right">
+
+                <div class="field">Word to Guess:<br><span id="placeholders"></span></div>
+
+                <div class="field">Wrong Guesses: <span id="guessed-letters"></span></div>
+
+                <div class="field">Guesses Left: <span id="guesses-left"></span></div>
+
+                <div class="field">Wins: <span id="wins"></span></div>
+
+                <div class="field">Losses: <span id="losses"></span></div>
+                
+                    
+                 <button id="new-game-button"> Play <i class="fas fa-gamepad align-self-center"></i></button>
+
+
+             </section>
+                
+        </section>
+
+    </section>
+    
+</body>
+
+<script src="assets/javascript/game.js"></script>
+
+</html>
